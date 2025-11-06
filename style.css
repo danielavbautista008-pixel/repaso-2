@@ -1,3 +1,7 @@
+body{
+    background-color: antiquewhite;
+}
+
 .contenedor{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -18,4 +22,19 @@ h2{
    justify-content: center;
    font-size: 18px;
    color: blueviolet;
+}
+.imlarga{
+    width: 115px;
+    height: 125px;
+    box-shadow: 5px 5px 10px 2px black;
+}
+.imcortas{
+    width: 115px;
+    height: 125px;
+    box-shadow: 5px 5px 10px 2px black;
+}
+.imrellenas{
+    width: 115px;
+    height: 125px;
+    box-shadow: 5px 5px 10px 2px black;
 }
