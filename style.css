@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blueviolet;
+    color: rgb(8, 67, 8);
     font-size: 36px;
     text-align: center;
 }
@@ -22,12 +22,21 @@ h2 {
     text-transform: uppercase;
 
 }
+h3{
+   display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 25px;
+    color: brown;
+    text-transform: uppercase;  
+}
 
 .subtitulo {
     display: flex;
     justify-content: center;
     font-size: 18px;
-    color: blueviolet;
+    color:  rgb(8, 67, 8);
+     text-transform: uppercase;
 }
 
 .imlarga {
