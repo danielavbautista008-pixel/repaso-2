@@ -102,3 +102,26 @@ p {
 
 
 }
+
+
+.contenedor-grid{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* background-color: #078d60; */
+}
+
+.elemento1{
+    grid-column: 1/4;
+    grid-row: 1;
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.elemento2{
+    grid-column: 1/4;
+    grid-row: 2;
+    /* background-color: rgb(165, 16, 101); */
+    height: 100%;
+}
